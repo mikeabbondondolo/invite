@@ -1,0 +1,239 @@
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* START Light Feature */
+@import "compass/css3";
+
+.star {
+	  position: absolute;
+      background: url(https://dl.dropbox.com/u/1488103/julie-logo-sparkle.png) no-repeat;
+      background-size: contain;
+      overflow: hidden;
+}     
+.star-1 {
+	width: 50px;
+	height: 34px;
+	top: 15%;
+	right: 30%;	
+}
+
+.star-2 {
+	width: 83px;
+	height: 77px;
+	top: 20%;
+	right: 50%;		
+}
+
+.star-3 {
+	width: 74px;
+	height: 70px;
+	top: 30%;
+	right: 60%;	
+}
+
+.star-4 {
+	width: 68px;
+	height: 70px;
+	top: 40%;
+	right: 30%;	
+}
+
+/* END Light Feature */
+
+body {
+	margin:0;
+	padding:0;
+	background-color:#08828e;
+	overflow-x:hidden;
+}
+
+li span {
+	text-align: center;
+	position: relative; left: -25px;
+}
+
+
+img {
+	width:auto;
+	max-width:100%;
+	height:auto;
+	display:block;
+	margin:0 auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+.col-1-2 {
+	width: 50%;
+	margin-top: 0px;
+	padding: 0px;
+}
+
+
+
+.copy, .audience, .contestants, .rules, .location, .tickets {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	color: white;
+	text-align: center;
+	padding: 40px;
+	height: 400px;
+}
+
+.rules-copy, .audience {
+	color: #003c42;
+}
+
+.copy {
+	height: auto;
+}
+
+.about {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	color: white;
+	text-align: center;
+	height: auto;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+}
+
+.audience {
+	background-color: #f9b90d;
+}
+
+.contestants {
+	background-color: #8e1911;
+}
+
+.rules, .location, .tickets {
+	background-color: #f9e5ca;
+	color: #033c42;
+}
+
+
+
+.location {
+	background-color: #f3ba0d;
+}
+
+.footer {
+	background-color: grey;
+	height: 200px;
+}
+
+.linebreak {
+	height: 1px;
+	background: #fff;
+	margin: 40px;
+}
+
+
+
+#footer {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: white;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: auto;
+}
+
+#main-title, #sub-heads, #facts {
+	font-family: 'Lobster', cursive;
+	color: white;
+	text-align: center;
+	font-size: 35px;
+	display: block;
+}
+
+#sub-head-blue {
+	font-family: 'Lobster', cursive;
+	color: white;
+	text-align: center;
+	font-size: 35px;
+	display: block;
+	color: #033c42;
+}
+
+#main-title {
+	font-size: 50px;
+}
+
+#blue-title {
+	font-family: 'Lobster', cursive;
+	color: #003c42;
+	text-align: center;
+	font-size: 50px;
+}
+
+#content {
+	width:100%;
+	max-width:1400px;
+	margin:0 auto;
+}
+
+#panel {
+	font-family: 'Lobster', cursive;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	display: block;
+}
+
+
+.large {
+	display:block;
+}
+
+/* start DEVICE VIEW */
+
+@media all and (max-width:1047px) {
+	.half, .left, .right {
+		width:100%;
+		float:none;
+	}
+	
+	.small {
+		display:none;
+	}
+
+	.large {
+		display:block;
+	}
+
+	.col-1-1 {
+		height: auto;
+	}
+
+	.col-1-2 {
+		margin-top: 0px;
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+
+	.col-1-3 {
+		padding-top: 30px;
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+	
+	.copy, .audience, .contestants, .rules, .location, .tickets {
+		height: auto;
+	}
+}
+
+/* end DEVICE VIEW */
+
+
